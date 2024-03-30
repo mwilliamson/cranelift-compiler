@@ -1,0 +1,5 @@
+function %add1(i64) -> i64 system_v {
+block0(v0: i64):
+    v1 = iadd_imm v0, 1
+    return v1
+}
